@@ -5,12 +5,12 @@ echo Limpiando...
 if exist bin (
     rmdir /s /q bin
 ) else (
-    echo Todo limpio
+    echo All Clean
 )
 if exist obj (
     rmdir /s /q obj
 ) else (
-    echo Todo limpio
+    echo All Clean
 )
 echo ----------------------------------
 echo Clean Completed
